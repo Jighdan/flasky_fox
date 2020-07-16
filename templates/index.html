@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}index{% endblock %}
+
+{% block content %}
+<section class="fox-index">
+	<a class="index-link" href="{{ url_for('fox', fox_name='ArabianRed') }}">Arabian Red</a>
+	<a class="index-link" href="{{ url_for('fox', fox_name='Artic') }}">Artic</a>
+	<a class="index-link" href="{{ url_for('fox', fox_name='Fennec') }}">Fennec</a>
+	<a class="index-link" href="{{ url_for('fox', fox_name='Gray') }}">Gray</a>
+	<a class="index-link" href="{{ url_for('fox', fox_name='Kit') }}">Kit</a>
+	<a class="index-link" href="{{ url_for('fox', fox_name='Red') }}">Red</a>
+	<a class="index-link" href="{{ url_for('fox', fox_name='Swift') }}">Swift</a>
+	<a class="index-link" href="{{ url_for('fox', fox_name='TibetanSand') }}">Tibetan Sand</a>
+</section>
+{% endblock %}

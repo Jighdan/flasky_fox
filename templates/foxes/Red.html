@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Red{% endblock %}
+
+{% block content %}
+<section class="section">
+	<section class="container">
+		<img src="{{ url_for('static', filename='assets/foxes/
+		Red.jpeg') }}" alt="Red Fox">
+		<section class="overlay">
+			<section class="text">
+				<h2>Red Fox</h2>
+				<h3>Vulpes Vulpes</h3>
+			</section>
+		</section>
+	</section>
+
+	<section class="info">
+		<p>A red fox has a relatively long body with dense fur. The fur is typically a rusty red color, and the legs are darker in color, sometimes even black. Foxes have black pointed ears and long canine teeth. On their underside, the fur is white from their nose down to their belly. A male fox, also called a “dog” weighs 10-12 pounds on average, while the female fox, also known as a “vixen,” weighs 9-10 pounds. A male measures 54”-78” long, and a female measures 56”-74” long. Male foxes tend to have a longer snout as well.</p>
+	</section>
+</section>
+{% endblock %}
