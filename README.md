@@ -1,5 +1,9 @@
 # the Fox
+A static website about foxes.
+[Demo](https://jighdan.github.io/flasky_fox/)
 
-A static website made with `Flask` and deployed with [`Frozen Flask`](https://github.com/Frozen-Flask/Frozen-Flask).
+## Logs
 
-[Demo](jighdan.github.io/flasky_fox)
+### 16 July
+[**Branch**](https://github.com/Jighdan/flasky_fox/tree/flasky)
+Made with `Flask` and deployed as static with [`Frozen Flask`](https://github.com/Frozen-Flask/Frozen-Flask).
