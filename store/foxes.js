@@ -1,7 +1,3 @@
-// Modules mode:
-// 	Every .js file inside the store directory is transformed 
-// as a namespaced module (index being the root module).
-
 export const state = () => ({
 	allFoxes: [
 		{
