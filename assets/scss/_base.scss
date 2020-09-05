@@ -1,0 +1,44 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $font;
+	background-color: $color-bg;
+	color: $color-font;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+hr {
+	width: 100%;
+	color: $color-font;
+}
+
+a,
+nuxt-link {
+	font-size: 1.10rem;
+	color: $color-accent;
+	border-bottom: 2px solid; 
+	border-color: $color-bg;
+	transition: $transition;
+
+	&:hover {
+		font-weight: 900;
+		color: $color-accent;
+		border-bottom-color: $color-accent;
+		border-radius: 2px;
+	}
+}
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .5s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}

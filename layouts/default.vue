@@ -1,32 +1,39 @@
 <template>
-  <main class="main">
-    <NavigationBar />
-    
-    <section class="page__container">
-      <Nuxt class="content" />
-    </section>
+  <main class="layout__default">
+    <LayoutHeader />
+    <Nuxt class="layout__default__page" />
+    <footer class="layout__default__footer">
+      <a href="https://github.com/Jighdan" hreflang="en" target="_blank">by @Jighdan</a>
+    </footer>
   </main>
 </template>
 
 <script>
-import NavigationBar from "../components/NavigationBar";
-
 export default {
-  components: {
-    NavigationBar
-  }
 }
 </script>
 
-<style scoped>
-.page__container {
-  margin-top: 5vh;
-  padding: 5vh 10vw;
+<style lang="scss">
+.layout__default {
+  min-height: 99vh;
   display: grid;
-  place-items: center;
-}
+  grid-template-rows: auto 1fr auto;
 
-.content {
-  max-width: 55vw;
+  &__page {
+    padding: 5vh 7.5vw;
+    display: grid;
+    place-items: center;
+  }
+
+  &__footer {
+    width: 100%;
+
+    a {
+      margin-right: 5%;
+      position: relative;
+      float: right;
+      font-size: 0.90rem;
+    }
+  }
 }
 </style>
