@@ -12,8 +12,7 @@
 					<h3 class="fox__text__intro__subtitle">{{ fox.scientificName }}</h3>
 				</section>
 
-				<p class="fox__text__paragraph" v-for="description in fox.descriptions" :key="description.id"
-				>{{ description }}</p>
+				<nuxt-content :document="fox" class="fox__text__paragraph" />
 			</article>
 
 			<nuxt-link class="fox__link" to="/fox">Go Back</nuxt-link>
@@ -76,7 +75,6 @@ export default {
 		}
 
 		&__paragraph {
-			margin-bottom: 0.5rem;
 			line-height: 1.5;
 		}
 	}

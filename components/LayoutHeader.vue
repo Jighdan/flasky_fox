@@ -1,4 +1,4 @@
-<template>
+<template functional>
 	<header class="layout__header">
 		<h1 class="layout__header__title">the Fox</h1>
     <nav class="layout__header__nav">

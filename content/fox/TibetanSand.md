@@ -1,0 +1,7 @@
+---
+name: Tibetan Sand
+scientificName: Vulpes Ferrilata
+image: http://vignette3.wikia.nocookie.net/animalofthewould/images/d/d2/Tibetan_Sand_Fox.jpg/revision/latest?cb=20130604092721"
+---
+
+The Tibetan fox is small and compact, with soft, dense coats and conspicuously narrow muzzles and bushy tails. Its muzzle, crown, neck, back and lower legs are tan to rufous coloured, while its cheeks, flanks, upper legs and rumps are grey. Its tail has white tips. The short ears are tan to greyish tan on the back, while the insides and undersides are white. Adult Tibetan foxes are 60 to 70 centimeters (24 to 28 in), not including tail, and have tail lengths of 29 to 40 cm (11 to 16 in). Weights of adults are usually 4 to 5.5 kg (8.8 to 12.1 lb). Among the true foxes, its skull is the most specialized in the direction of carnivore (and looks nothing like the picture in the species box above); it is longer in the condylobasal length and in mandible and cheek tooth length than those of hill foxes. Its cranial region is shorter than that of hill foxes, and the zygomatic arches narrower. Its jaws are also much narrower, and the forehead concave. Its canine teeth are also much longer than those of hill foxes.
